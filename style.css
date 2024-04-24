@@ -1,0 +1,107 @@
+body {
+  background-color: #e6f2f3;
+}
+
+.middle-text {
+  color: #8acdd3;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-shadow: 1px 1px 5px black;
+}
+.sub-text {
+  color: #8acdd3;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-shadow: 1px 1px 5px black;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  
+}
+.paragraph {
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.contact{
+  align-items: center;
+
+}
+.fa-instagram {
+  padding-right: 2em;
+  font-size: 2em;
+}
+.fa-envelope{
+  font-size: 2em;
+}
+.fa-phone-alt{
+  font-size: 1.7em;
+}
+
+.relative {
+  position: relative;
+}
+
+.hiddenText {
+  border: 5px black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main {
+  background-image: url("photo-main_2.jpeg");
+  height: 40rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav {
+  background-color: #b2d4d7;
+}
+
+@media (max-width: 768px) {
+  /* Zmiana stylów dla ekranów o szerokości do 768px */
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Zmiana stylów dla ekranów o szerokości do 576px */
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+}
+
