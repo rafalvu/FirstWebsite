@@ -21,7 +21,10 @@ body {
   background-position: center;
   background-size: 100% auto;
   text-shadow: 5px -3px 10px black;
+  animation: fade-in-text 3s;
 }
+
+
 
 .container {
   max-width: 80%;
@@ -103,3 +106,16 @@ body {
   }
 }
 
+@keyframes fade-in-text {
+  from {
+    color: rgba(138, 205, 211, 0); /* Przezroczysty kolor tekstu na początku */
+  }
+  to {
+    color: rgba(138, 205, 211, 1); /* Pełny kolor tekstu na końcu */
+  }
+}
+.footerBottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}

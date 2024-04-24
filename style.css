@@ -27,7 +27,6 @@ body {
   justify-content: center;
   display: flex;
   align-items: center;
-  
 }
 .paragraph {
   font-family: Poppins;
@@ -42,18 +41,17 @@ body {
   margin-right: 10%;
 }
 
-.contact{
+.contact {
   align-items: center;
-
 }
 .fa-instagram {
   padding-right: 2em;
   font-size: 2em;
 }
-.fa-envelope{
+.fa-envelope {
   font-size: 2em;
 }
-.fa-phone-alt{
+.fa-phone-alt {
   font-size: 1.7em;
 }
 
@@ -74,17 +72,17 @@ body {
   height: 40rem;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% auto; 
+  background-size: 100% auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
 .text-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: fade-in 3s;
 }
 
 .nav {
@@ -105,3 +103,19 @@ body {
   }
 }
 
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    /* Start with 0 opacity */
+  }
+  to {
+    opacity: 1;
+    /* transition to full opacity */
+  }
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
