@@ -45,7 +45,7 @@ body {
   align-items: center;
 }
 .fa-instagram {
-  padding-right: 2em;
+  
   font-size: 2em;
 }
 .fa-envelope {
@@ -53,6 +53,10 @@ body {
 }
 .fa-phone-alt {
   font-size: 1.7em;
+}
+.fa-spotify{
+  font-size: 2em;
+  padding-right: 2em;
 }
 
 .relative {
